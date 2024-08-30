@@ -1,0 +1,14 @@
+{
+  "env": {
+    "__DEV__": "true"
+  },
+  "watch": ["src", "utils", "vite.config.ts", "manifest.json"],
+  "ext": "tsx,css,less,html,ts,json",
+  "ignore": [
+    "src/**/*.spec.ts",
+    ".git",
+    "node_modules/**/node_modules",
+    ".vscode"
+  ],
+  "exec": "pnpm build"
+}
