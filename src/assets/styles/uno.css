@@ -25,15 +25,15 @@
   --un-numeric-fraction: ;
   --un-border-spacing-x: 0;
   --un-border-spacing-y: 0;
-  --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0%);
-  --un-ring-shadow: 0 0 rgb(0 0 0 / 0%);
+  --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0);
+  --un-ring-shadow: 0 0 rgb(0 0 0 / 0);
   --un-shadow-inset: ;
-  --un-shadow: 0 0 rgb(0 0 0 / 0%);
+  --un-shadow: 0 0 rgb(0 0 0 / 0);
   --un-ring-inset: ;
   --un-ring-offset-width: 0px;
-  --un-ring-offset-color: #ffffff;
+  --un-ring-offset-color: #fff;
   --un-ring-width: 0px;
-  --un-ring-color: rgb(147 197 253 / 50%);
+  --un-ring-color: rgb(147 197 253 / 0.5);
   --un-blur: ;
   --un-brightness: ;
   --un-contrast: ;
@@ -77,15 +77,15 @@
   --un-numeric-fraction: ;
   --un-border-spacing-x: 0;
   --un-border-spacing-y: 0;
-  --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0%);
-  --un-ring-shadow: 0 0 rgb(0 0 0 / 0%);
+  --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0);
+  --un-ring-shadow: 0 0 rgb(0 0 0 / 0);
   --un-shadow-inset: ;
-  --un-shadow: 0 0 rgb(0 0 0 / 0%);
+  --un-shadow: 0 0 rgb(0 0 0 / 0);
   --un-ring-inset: ;
   --un-ring-offset-width: 0px;
-  --un-ring-offset-color: #ffffff;
+  --un-ring-offset-color: #fff;
   --un-ring-width: 0px;
-  --un-ring-color: rgb(147 197 253 / 50%);
+  --un-ring-color: rgb(147 197 253 / 0.5);
   --un-blur: ;
   --un-brightness: ;
   --un-contrast: ;
@@ -105,42 +105,35 @@
   --un-backdrop-saturate: ;
   --un-backdrop-sepia: ;
 }
-
 /* layer: shortcuts */
 .container {
   width: 100%;
 }
-
-@media (width >= 640px) {
+@media (min-width: 640px) {
   .container {
     max-width: 640px;
   }
 }
-
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-
-@media (width >= 1024px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
 }
-
-@media (width >= 1280px) {
+@media (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
 }
-
-@media (width >= 1536px) {
+@media (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }
 }
-
 /* layer: default */
 .pointer-events-none {
   pointer-events: none;
