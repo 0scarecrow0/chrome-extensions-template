@@ -10,7 +10,7 @@ export default tseslint.config(
   { ignores: ['watch.js', 'dist', '.vscode/**'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
-    files: ['**/*.{html,js,jsx,ts,tsx,json}'],
+    files: ['**/*.{html,js,jsx,ts,tsx}'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: {

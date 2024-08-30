@@ -1,5 +1,5 @@
 {
-  "src/**/*.{html,js,jsx,ts,tsx,json}": [
+  "src/**/*.{html,js,jsx,ts,tsx}": [
     "eslint --fix --max-warnings=0",
     "prettier --cache --write"
   ],
