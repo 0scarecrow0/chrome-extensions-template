@@ -13,12 +13,12 @@ export default function Popup(): JSX.Element {
           Edit <code>src/pages/popup/Popup.jsx</code> and save to reload.
         </p>
         <a
-          className="text-blue-400 c-#eee"
+          className="text-blue-400"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React! 挨打大屋顶1231312 66666666 123123123 'dadawdawdwa'
+          Learn React
         </a>
         <p>Popup styled with unoCSS!</p>
       </header>

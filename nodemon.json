@@ -6,6 +6,7 @@
   "ext": "tsx,css,less,html,ts,json",
   "ignore": [
     "src/**/*.spec.ts",
+    "src/assets/styles/uno.css",
     ".git",
     "node_modules/**/node_modules",
     ".vscode"
