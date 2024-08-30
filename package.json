@@ -13,7 +13,6 @@
     "uno:build": "unocss \"./src/pages/**/*\" -o ./src/assets/styles/uno.css"
   },
   "dependencies": {
-    "antd": "^5.20.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "webextension-polyfill": "^0.12.0"
