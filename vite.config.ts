@@ -31,4 +31,11 @@ export default defineConfig({
     }),
   ],
   publicDir: resolve(__dirname, 'public'),
+  build: {
+    rollupOptions: {
+      input: {
+        panel: '/src/pages/panel/index.html',
+      },
+    },
+  },
 });

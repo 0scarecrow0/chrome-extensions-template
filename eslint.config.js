@@ -7,7 +7,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['watch.js', 'dist', '.vscode/**'] },
+  { ignores: ['watch.js', 'dist', '.vscode/**', 'node_modules', '.husky'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{html,js,jsx,ts,tsx}'],

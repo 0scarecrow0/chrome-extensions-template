@@ -1,6 +1,6 @@
-import './Panel.less';
+import './index.less';
 
-export default function Panel(): JSX.Element {
+export default function InsertNode(): JSX.Element {
   return (
     <div className="container">
       <h1>Dev Tools Panel</h1>
